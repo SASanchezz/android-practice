@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Practice_4_Hrachov</string>
+    <string name="signature">Hrachov Alexander</string>
+
+    <string name="error">App not found</string>
+    <string name="intro_text">Hello world</string>
+    <string name="help">Help</string>
+    <string name="preferences">Preferences</string>
+    <string name="canvas">Canvas</string>
+    <string name="animations">Animations</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="background">Background task</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="help_text">
+     На основному екрані існує Application Bar, що включає в себе:
+    \n
+    \n"Home" - відкриває основну сторінку
+    \n
+    \n"Help" - відкриває цю сторінку
+    \n
+    \n"Canvas" - відкриває сторінку з відслітковуванням кліків. Де синя кнпока очищує екран, а червона - повертає до мейну. (Працює повільно і іноді вибиває помилку :с )
+    \n
+    \n"Animations" - відкриває сторінку з анімаціями. Запуск на клік. Відтворює 4 аніміції: 2 з кругом, 2 з текстом
+    \n
+    \n"Preferences" - сторінка, де можна обрати 2 кольори фону та тексту, що зберіжется \n в shared preferences і засинронизує з БД"
+    \n
+    \n"Broadcast" - відсилає броадкаст повідомлення
+    \n
+    \n"Async task" - ... телепортує до Місяця всіх велитнів біля вас
+    \n\n
+    \nНа гол. екрані існує кнопка to fragment, що відкриває фрагмент, куди та звідки можна передавати значення з полів, а також відслідковує положення телефону"
+    \n
+    \nТакож існує віджит, що показує локацію телефону.\nАЛЕ оновлює данні через броадкаст тільки с запуском Main Activity (мабуть, не зовсім так воно має працювати :) але інакше не виходить :с )"
+    </string>
+    <string name="home">Home</string>
+
+
+    <string-array name="preferences_colors">
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>YELLOW</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">No location yet</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="location_permission_denied">location permissions denied</string>
+
+    <string name="location_text">"Latitude: %1$.4f \n Longitude: %2$.4f
+\n Timestamp: %3$tr"</string>
+    <string name="address_text">"Address: %1$s \n Timestamp: %2$tr"</string>
+
+    <string name="service_not_available">geocode service not available</string>
+    <string name="invalid_lat_long_used">invalid lat long used</string>
+    <string name="no_address_found">no address found</string>
+    <string name="no_location">no location</string>
+
+</resources>

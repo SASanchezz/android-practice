@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HelpActivity"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/to_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/to_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/to_preferences"
+            android:icon="@drawable/ic_preferences"
+            android:title="@string/preferences" />
+        <item
+            android:id="@+id/to_canvas"
+            android:icon="@drawable/ic_canvas"
+            android:title="@string/canvas" />
+        <item
+            android:id="@+id/to_animations"
+            android:icon="@drawable/ic_animation"
+            android:title="@string/animations" />
+    </group>
+
+    <item android:title="Utilities">
+        <menu>
+            <item
+                android:id="@+id/start_broadcast"
+                android:icon="@drawable/ic_broadcast"
+                android:title="@string/broadcast" />
+            <item
+                android:id="@+id/start_background_app"
+                android:icon="@drawable/ic_background_task"
+                android:title="@string/background" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
